@@ -25,6 +25,7 @@ export class CdkpipelinesDemoPipelineStack extends Stack {
         oauthToken: SecretValue.secretsManager('github-token'),
         owner: 'curry9999',
         repo: 'cdk-pipelines',
+        branch: 'main',
       }),
 
        // How it will be built and synthesized
